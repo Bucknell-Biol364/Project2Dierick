@@ -25,6 +25,7 @@ date: 19 Feb 2019
   They also bounce back and forth between different generations (ie, table 2 only reporting )
   In the statisical analysis, they said none of their data was normal/normally distributed, most of the aggression data is not normally distributed. Researchers ran normality tests and multiple comparison tests post-hoc.
   Log transformed data, divided by median value
+  Figure 3: no mention of whether there is food present or not, which could impact aggressive and territorial behavior. Measured in escalations per hour, and given an average. Authors mentioned that escalations continued throughout the day, as it was measured for six hours.
   
   
   
@@ -51,7 +52,7 @@ date: 19 Feb 2019
   In table 2, they only list genes that are statisically significant, no mention of supplementary table 2 in which non statiscally significant genes would be reported
   
   HARKing:
-  Potentially no HARKing in this paper, we couldn't find evidence one way or another. They did most of their studies cocurrently. Could avoid HARKing with the pre-reg document.
+  HARKing is basically outlined in the discussion, they said their selection process became more stringent as the flies became more aggressive but this would be an unexpected finding and they did not denote that this was unexpected. Could avoid HARKing with the pre-reg document.
   
   P-hacking:
   We found evidence of this in figure 2, strange grouping to obtain statistical significance (grouping aggressive and neutral flies together)
@@ -63,7 +64,7 @@ date: 19 Feb 2019
 - Design a follow-up study to replicate the most crucial experiment
   + Complete the PreregChallengeTemplate.Rmd form for this replication experiment
   
-  
+  Most crucial experiment: Figure 3: Aggression quantification in poulation cage at Gen22 and Aggr-Neutr mixed populations and pairs. Basically shows that aggressive flies are more aggressive than neutral flies.
   
   
 - Present summary of reproducibility assessment in class
@@ -72,8 +73,7 @@ date: 19 Feb 2019
 
 
 
-Each group should use an **Acknowledgements** section to document the participation of each member and the collaboration within and between groups.
-
 Additional credit will be awarded for providing assistance to other groups and for completion of the analysis that supports the most essential conclusion.
 
+**Acknowledgements**
 
