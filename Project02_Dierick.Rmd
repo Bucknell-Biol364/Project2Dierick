@@ -17,18 +17,59 @@ date: 19 Feb 2019
 - Read and discuss your paper with your group partner
   + Focus on the methods and results
   + For each conclusion evaluate the strength of the supporting evidence
+  
+  Initial Thoughts:
+  Figure 4 potentially not showing what the authors think it does/overstretching results (basically a mess)
+  Figure 2 b, c, d: confusing on what they're trying to do here, put groups together based upon what gave them the best results. "n" is all over the place (ex: 15, 123.) Neutral and aggressive groups are combined for statisical power? Strong evidence for p hacking. Chose to do generation 11 (but why? Is there data/previous studies showing generation 11 is significant?) 
+  Figure 3: pretty significant data shown, non-confusing way (good figure)
+  They also bounce back and forth between different generations (ie, table 2 only reporting )
+  In the statisical analysis, they said none of their data was normal/normally distributed, most of the aggression data is not normally distributed. Researchers ran normality tests and multiple comparison tests post-hoc.
+  Log transformed data, divided by median value
+  
+  
+  
+  
 - Complete the nr-reporting-summary.pdf checklist (open in Adobe Acrobat)
   + For any deficient items on the checklist, describe the information needed
   + Refer to nr-reporting-life-sciences-research.pdf for guidelines
+  
+  
+  
+  
 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
-  + If follow-up studies are not available, describe the missing information needed to perform the analysis
+  -We could probably do everything they mentioned in R, we would just need the data they used. Their methods are listed and analysis is pretty straight forward in regards to what tests were used. We were able to obtain their raw data, but the data file is only available in HTML and reading it into R might be difficult. Data is actually in text file, and two other files that are probably not compatiable with R. 
+  
+  
+  
 - For each Questionable Research Practice discussed in Fraser *et al*:
   + Find evidence to exclude this QRP, or
   + Describe steps that should have been taken to prevent this QRP (see Forstmeier *et al*)
+  
+  Cherry-picking:
+  In table 2, they only list genes that are statisically significant, no mention of supplementary table 2 in which non statiscally significant genes would be reported
+  
+  HARKing:
+  Potentially no HARKing in this paper, we couldn't find evidence one way or another. They did most of their studies cocurrently. Could avoid HARKing with the pre-reg document.
+  
+  P-hacking:
+  We found evidence of this in figure 2, strange grouping to obtain statistical significance (grouping aggressive and neutral flies together)
+  Could be avoided via not grouping them together, providing a proper and even "n"
+  
+  
+  
+  
 - Design a follow-up study to replicate the most crucial experiment
   + Complete the PreregChallengeTemplate.Rmd form for this replication experiment
+  
+  
+  
+  
 - Present summary of reproducibility assessment in class
+
+
+
+
 
 Each group should use an **Acknowledgements** section to document the participation of each member and the collaboration within and between groups.
 
