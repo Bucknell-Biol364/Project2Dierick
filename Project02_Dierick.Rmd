@@ -81,3 +81,4 @@ Additional credit will be awarded for providing assistance to other groups and f
 
 **Acknowledgements**
 
+Initial project work was done together (both Matt and Jordan). After draft comments, we split the work by Matt working on the suggestions made by Prof Field and Jordan working on the reproducibility aspect. 
