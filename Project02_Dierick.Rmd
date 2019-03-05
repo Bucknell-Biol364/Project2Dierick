@@ -38,12 +38,16 @@ KF: Good summary of your concerns with the analysis
   Done - see updated document
 KF: Good work on this document. How do you think the lack of blinding could affect the results? 
 Were there subjective measurements made that could be influenced by observer bias?  
+
+  The lack of blinding could have allowed them to screen for flies that showed aggressive behaviour, but were not truly aggressive because of a genetic predisposition. The process of screening flies from the video footage was subjective. It is possible that one researcher could have determined a specified behavior was aggressive, but that someone else would not agree with that determination. Given that the flies are so small as well and the video footage was 30 minutes long, it is possible that they could have missed some demonstrations of aggressive behavior. 
   
   
 - Determine if you could repeat the analysis that is most essential to conclusions of the paper
   + If data or methods are not available, look for follow-up studies that provide the required details
   -We could probably do everything they mentioned in R, we would just need the data they used. Their methods are listed and analysis is pretty straight forward in regards to what tests were used. We were able to obtain their raw data, but the data file is only available in HTML and reading it into R might be difficult. Data is actually in text file, and two other files that are probably not compatiable with R. 
 KF: I bet there is a package for that!  
+  
+    There is a package called XML that we can use in R to analyze text files. The text file could also be analyzed relatively easily. The problem with the file is that it was provided in the form of a matrix. They did not supply an information about the data in the matrix, so it is impossible to tell what exactly the data in that matrix means. As a result, it would be difficult to reproduce anything that would have a meaningful outcome.
   
   
 - For each Questionable Research Practice discussed in Fraser *et al*:
@@ -67,6 +71,8 @@ KF: Nice concise summary.
 - Design a follow-up study to replicate the most crucial experiment
   + Complete the PreregChallengeTemplate.Rmd form for this replication experiment
 KF: Good work on this. How could you blind the experimenter to the fly group when they were evaluating the behavior?
+
+    You could blind the experimenter when they evaluate the fly group by randomly assigning the flies to different groups (no prior determination of their genetic predisposition to agressiveness), then ask the researcher to monitor behaviour. This way, the researcher does not expect to see aggresive behavior in a group. What I would do is create a homogenous population of flies of all type. Then I would split them into random groups and examine their behavior within the random groups. While I monitor the flies, I would screen them for aggressiveness and then removed those that display aggressive behaviour. I would then examine the "non-aggressive" (not removed from initial population) and aggressive flies separately and compare the level of aggression between the groups. Doing so would confirm the flies I removed were aggressive because of their inate behavior rather than from than by chance that they demonstrated it in the initial screening. Continuing the analysis after just one screening would cause me to operate under the assumption that aggression could have been caused by chance rather than by some underlying variable.
   
   Most crucial experiment: Figure 3: Aggression quantification in poulation cage at Gen22 and Aggr-Neutr mixed populations and pairs. Basically shows that aggressive flies are more aggressive than neutral flies.
   
